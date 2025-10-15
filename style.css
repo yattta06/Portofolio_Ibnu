@@ -224,19 +224,9 @@ span{
 }
 
 @keyframes words {
-    0%, 25%{
+    0%, 100%{
         content: "Web Devoloper";
     }
-    26%, 50%{
-        content: "Newbie Devoloper";
-    }
-    51%, 75%{
-        content: "Web Devoloper";
-    }
-    76%, 100%{
-        content: "Newbie Devoloper";
-    }
-}
 
 @media(max-width:1000px){
     .home{
@@ -298,3 +288,4 @@ span{
 #contact textarea {
   resize: none;
 }
+
